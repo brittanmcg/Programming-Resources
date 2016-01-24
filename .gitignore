@@ -1,0 +1,17 @@
+.idea/
+*.log
+node_modules/
+/build/
+credentials.js
+atlassian*.xml
+.awspublish*
+docs/
+.DS_Store
+*.marko.js
+coverage/
+manifest.json
+server.log
+dump.json
+dump.rdb
+tests/integration/reports/
+tests/integration/screens/
