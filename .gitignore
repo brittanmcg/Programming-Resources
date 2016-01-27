@@ -1,6 +1,7 @@
 .idea/
 *.log
 node_modules/
+*.css
 /build/
 credentials.js
 atlassian*.xml
