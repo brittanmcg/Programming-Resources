@@ -1,22 +1,18 @@
 var React = require('react');
+var ReactDOM = require('react-dom');
+var Header = require('./header.jsx');
+var Footer = require('./footer.jsx');
 
-var HowItWorks = React.createClass({
+var App = React.createClass({
     render: function(){
         return (
-            <div>
-                <Headline />
+            <div className="page-wrap">
+              <Header />
+              <Footer />
             </div>
         );
     }
 });
 
-var Headline = React.createClass({
-    render: function(){
-        return (
-            <h1>Hello</h1>
-        );
-    }
-});
-
-React.render(<HowItWorks />, document.querySelector('.howitworks-react-3-col-circle-icons'));
+ReactDOM.render(<App />, document.querySelector('.howitworks-react-3-col-circle-icons'));
 
